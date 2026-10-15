@@ -1,4 +1,6 @@
 interface:
   display_name: "自然中文"
-  short_description: "去掉中文里的翻译腔、冗词和生硬句式，保留原意与作者语气"
-  default_prompt: "请用 $natural-chinese 润色下面的中文，去掉翻译腔和冗词，保留事实、语气和必要限定。"
+  short_description: "每次输出中文都参考的表达指南，适用于问答、说明、写作与修改"
+  default_prompt: "请遵循 $natural-chinese 完成当前任务，让每次中文输出都自然、直接、准确，并保留必要限定。"
+policy:
+  allow_implicit_invocation: true
